@@ -1,0 +1,18 @@
+{
+  "name": "atom-linter-frege",
+  "main": "./lib/atom-linter-frege",
+  "version": "0.0.0",
+  "description": "A short description of your package",
+  "keywords": [
+  ],
+  "activationCommands": {
+    "atom-workspace": "atom-linter-frege:toggle"
+  },
+  "repository": "https://github.com/atom/atom-linter-frege",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}
