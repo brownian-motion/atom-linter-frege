@@ -1,5 +1,5 @@
 {
-  "name": "atom-linter-frege",
+  "name": "linter-frege",
   "main": "./lib/atom-linter-frege.js",
   "version": "0.0.0",
   "description": "A linter for Frege, a Haskell for the JVM",
