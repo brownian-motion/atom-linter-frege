@@ -1,18 +1,29 @@
 {
   "name": "atom-linter-frege",
-  "main": "./lib/atom-linter-frege",
+  "main": "./lib/atom-linter-frege.js",
   "version": "0.0.0",
-  "description": "A short description of your package",
-  "keywords": [
-  ],
-  "activationCommands": {
-    "atom-workspace": "atom-linter-frege:toggle"
-  },
-  "repository": "https://github.com/atom/atom-linter-frege",
+  "description": "A linter for Frege, a Haskell for the JVM",
+  "keywords": ["linter", "linter-frege", "Frege"],
   "license": "MIT",
   "engines": {
-    "atom": ">=1.0.0 <2.0.0"
+    "atom": ">=1.4.0 <2.0.0"
   },
   "dependencies": {
+    "atom-linter": "^5.0.1"
+  },
+  "package-deps": [
+    "linter"
+  ],
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paxromana96/atom-linter-frege.git"
+  },
+  "providedServices":{
+    "linter":{
+      "versions":{
+        "1.0.0":"provideLinter"
+      }
+    }
   }
 }
